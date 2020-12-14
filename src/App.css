@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.whirler {
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+  border: 1px solid black;
+  will-change: transform;
+  overflow: hidden;
+  touch-action: none;
+}
